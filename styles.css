@@ -1,14 +1,16 @@
 body {
-   background: coral; 
+   background: blueviolet; 
    font-family: monospace;
    font-size: 20px;
-   margin-top: 50px;
-   margin-bottom: 70px;
-   margin-right: 50px;
-   margin-left: 50px; 
+   color: cornsilk;
+   margin-top: auto;
+   margin-bottom: auto;
+  box-sizing: content-box;
+  /* all four sides */
+  padding: 10px;
 }
 h1{
-    font-family: cursive;
+    font-family: Lucida;
     font-size: 25px;
     text-align: center;
 }
@@ -34,4 +36,20 @@ img + p{
     60%{ color: transparent; }
     99%{ color: transparent; }
     100%{ color: #000; }
+}
+#bio {
+    border-radius: 25px;
+    background: cornflowerblue;
+    color: black;
+    font-family: courier;
+    text-align: justify;
+    padding: 20px;
+    width: 500px;
+    height: 340px;
+    margin: auto;
+    width: 50%;
+}
+footer{
+    font-size: small;
+    font-family: Arial;
 }
